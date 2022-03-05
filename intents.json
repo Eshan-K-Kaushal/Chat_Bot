@@ -1,0 +1,32 @@
+{
+  "intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "good day", "greetings", "what's up", "hows it going?",
+      "how are you doing?", "hi", "hi!", "Hello!", "hey!", "hi!!"],
+    "responses": ["Hello!", "Hi!", "Hola!", "Guten Morgen", "Yo Wassup!", "Wassup man!"]
+},
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "see ya", "see you", "Bye", "bye", "alright! see you", "see you soon"],
+      "responses": ["bye!", "take care!", "have a great day", "goodbye and stay safe!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old", "how is you", "how old are you", "whats your age", "what is your age?"],
+      "responses": ["Eshan is 22 years old", "My creator Eshan is 22 years old", "I am just 2 days old tho"]
+       },
+    {
+      "tag": "name",
+      "patterns": ["whats your name?", "whats your name", "what is your name", "what is your name?",
+      "whats ur name"],
+      "responses": ["My name is Melinia", "My name is Melinia, I am Eshan's custom personal assistant"]
+    },
+    {
+      "tag": "talk",
+      "patterns": ["I dont feel so good", "I am not the same", "I want to talk to you", "I am bored",
+      "I want to do something creative", "I want to build something"],
+      "responses": ["Why do you say that?", "What do you want to do?", "Alright, tell me whats on on your mind",
+      "Any plans?"]
+    }
+  ]
+}
